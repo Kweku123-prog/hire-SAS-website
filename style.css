@@ -1,0 +1,428 @@
+ul ,li{
+    text-decoration: none;
+}
+body{
+    margin: 0 0;
+    font-family:"IBM Plex Sans Hebrew", sans-serif ;
+    
+}
+
+
+.nav{
+    padding-left: 4em;
+    padding-right: 4em;
+    display: flex;
+    flex-direction: row; 
+   
+   gap: 4em;
+   align-items: center;
+    
+}
+
+.nav ul{
+    display: flex;
+  gap: 3em;
+  list-style-type: none;
+}
+
+
+.english{
+    border: 2px solid  grey;
+    width: 130px;
+    height: 30px;
+border-radius: 60px;
+
+}
+.login{
+    border: 2px solid  grey;
+    width: 100px;
+    height: 30px;
+border-radius: 60px;
+}
+.request{
+    background-color: black;
+    width: 130px;
+    height: 30px;
+border-radius: 60px;
+color: white;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+
+}
+.sub-items{
+    display: flex;
+    gap: 1em;
+
+}
+.banner{ 
+  
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 200px;
+padding-bottom: 8em;
+  
+    
+    display: flex;
+    gap: 4em;
+    justify-content: space-between;
+
+    background-color:  #B1D8FC;;
+  
+   
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.sub-banner{
+
+}
+.banner-text h1{
+
+    font-size: 63px;
+    font-weight:bolder;
+    
+}
+.text-point{
+    display: flex;
+    gap: 1em;
+    
+}
+
+.request-demo{
+    margin-top: 3em;
+    background-color: black;
+    width: 190px;
+    height: 50px;
+border-radius: 60px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.sub{
+    display: flex;
+}
+.mid-text{
+ 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+
+  
+}
+.icons-list{
+    width: 60%;
+ 
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.mid-section{
+    padding-top: 4em;
+    display: flex;
+    gap: 2em;
+   align-items: center;
+   
+    flex-direction: column;
+}
+.service{
+    background-color: rgba(50, 50, 50, 1);
+    margin-bottom: 3em;
+    margin-top: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.service-sub{
+
+
+
+display: flex;
+justify-content: center;
+gap: 2em;
+
+}
+
+.service-head{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.talent{
+    background-color: rgb(65, 64, 64);
+    height: 480px;
+    max-width: 400px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 2em;
+
+}
+.contractors{
+    max-width: 400px;
+    height: 707px;
+ 
+}
+
+.talent-head{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.talent-sub-text{
+    color: white;
+    text-align: justify;
+    font-size: 12px;
+
+}
+
+.button-sub{
+background-color: white;
+    color: black;
+    border-radius: 60px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+    
+}
+
+.con-1{
+    
+    background-color: rgba(58, 92, 69, 1);
+    padding: 2em;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+   gap: 0.7em;
+  
+}
+.con-2{
+    display: flex;
+    margin-top: 3em;
+    padding: 3em;
+    background-color: rgba(177, 216, 252, 1);
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 0.7em;
+  
+    
+  
+
+}
+.space{
+    margin-right: 1.5em;
+}
+.divider{
+    border: 0.1px gray solid;
+    width: 100%;
+    margin-bottom: 3em;
+}
+.stat-head{
+    font-size: 60px;
+    font-weight: 700;
+    color: rgba(176, 217, 255, 1);
+
+}
+.stat-text{
+    color: white;
+}
+.stat{
+    display: flex;
+ gap: 3em;
+ margin-bottom: 5em;
+}
+
+.container{
+    background-color: rgba(245, 245, 245, 1);
+    padding-left: 3em;
+    padding-right: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.culture-sub1{
+   
+    width: 100%;
+    max-width: 1200px;
+    height: 592px;
+
+}
+.culture-head{
+margin-top: 3em;
+margin-bottom: 2em;
+font-size: 50px;
+font-weight: 700;
+text-align: center;
+}
+.sub-box-1{
+
+   max-width: 592px;
+   width: 50%;
+    height: 592px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+.culture-sub1{
+    display: flex;
+}
+
+.sub-box-head{
+    color: rgba(253, 133, 47, 1);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sub-box-1 p{
+    font-size: 15px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.button-culture{
+background-color: white;
+    border-radius: 60px;
+    width: 50%;
+    padding: 0.6em;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-box-head2{
+    color: rgba(145, 73, 237, 1);
+    font-size: 30px;
+    font-weight: 600;
+}
+.space{
+    padding-left: 1em;
+}
+
+.teams{
+
+   
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color:rgba(50, 50, 50, 1) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1024px;
+
+}
+.teams-head{
+    margin-top: 3em;
+    margin-bottom: 1em;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+
+.teams-sub{
+   
+  
+    width: 100%;
+    display: flex;
+ 
+    max-width: 1000px;
+
+}
+.teams-content{
+   
+   
+    background-color: rgba(177, 216, 252, 1);
+ 
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+
+ 
+    border-bottom-left-radius: 20px;
+  
+    border-top-left-radius: 20px;
+   
+  
+}
+
+.teams-content p{
+    font-size: 20px;
+ font-weight: 600;
+    text-align: left;
+
+}
+
+.teams-content-2{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    max-width: 500px;
+
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+.teams-content-2 img{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.btn-teams{
+    margin-top: 1em;
+    background-color: white;
+    border-radius: 60px;
+    width: 167px;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.space-1{
+    margin-right: 10px;
+}
+
+.teams-pading{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
